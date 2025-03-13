@@ -1,0 +1,176 @@
+html{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+    background-color: #0A192F;
+    color: #E0E0E0;
+    line-height: 1.6;
+}
+
+/* Header dan Navbar */
+.Header {
+    background: #112240;
+    padding: 12px 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 229, 255, 0.2);
+}
+
+.Navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Navbar ul li {
+    display: inline;
+}
+
+.Navbar ul li a {
+    color: #00E5FF;
+    text-decoration: none;
+    font-size: 16px;
+    transtion: color 0.3s ease-in-out;
+}
+
+.Navbar ul li a:hover {
+    color: #00FF7F;
+}
+
+/* Section Styling */
+section {
+    padding: 20px 20px;
+    margin: auto;
+    max-width: 950px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #00E5FF;
+}
+
+/* Hero Section */
+#Hero {
+    text-align: center;
+}
+
+#Hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #00E5FF;
+}
+
+.Deskripsi-Singkat {
+    color: #B0BEC5;
+}
+
+/* Pengalaman, Pendidikan, Organisasi */
+section .Display {
+    background: #112240;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.15);
+}
+
+#Pengalaman img, #Pendidikan img, #Organisasi img {
+    width: 95px;
+    height: 100%;
+}
+
+.Tempat-Kerja,.Tempat-Pendidikan, .Nama-Organisasi {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #00e5ff;
+}
+
+.Jangka-Waktu, .Prodi, .Waktu-Aktif, .Tahun-Pendidikan, .Lokasi-Kerja, .Tempat-Organisasi {
+    font-size: 14px;
+    color: #B0BeC5;
+}
+
+/* Pengalaman, Pendidikan, Organisasi */
+#Pengalaman .Display, #Pendidikan .Display, #Organisasi .Display{
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+/* Sertifikat dan Portofolio */
+
+#Sertifikat .Container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+#Portofolio .Container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+#Sertifikat .Display, #Portofolio .Display {
+    width: 290px;
+    height: 100%;
+}
+
+#Sertifikat img, #Portofolio img {
+    width: 250px;
+    height: auto;
+}
+
+.Judul-Sertifikat, .Judul-Portofolio{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #00e5ff;
+}
+
+.Nama-Perusahaan {
+    font-size: 14px;
+    color: #B0BEC5;
+}
+
+/* Kontak */
+#Kontak {
+    text-align: center;
+}
+#Kontak h1{
+    font-size: 26px;
+}
+
+#Kontak a {
+    font-size: 18px;
+    color: #B0BEC5;
+    text-decoration: none;
+    margin: 0 20px 0;
+}
+
+/* Footer */
+footer {
+    background: #112240;
+    color: #00E5FF;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 10px rgba(0, 229, 255, 0.2);
+}
